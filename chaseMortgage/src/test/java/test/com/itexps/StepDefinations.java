@@ -170,7 +170,7 @@ public void click_on_get_my_options_button() throws Throwable {
 @Then("^Verify the user get result of the mortgage calculation of the home loan$")
 public void verify_the_user_get_result_of_the_mortgage_calculation_of_the_home_loan() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    
+    Thread.sleep(1000);
 }
 
 @Then("^close the browser$")

@@ -181,7 +181,8 @@ public class MortgageCalculator {
             hoaFees.clear();
             hoaFees.sendKeys("300");
             hoaFees.sendKeys(Keys.TAB);
-            calMortgage.click();
+            calMortgage.sendKeys(Keys.ENTER);
+           
           }
   
  // public void result()
