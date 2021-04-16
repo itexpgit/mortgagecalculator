@@ -7,4 +7,14 @@
                 <goal>cobertura:cobertura</goal>
             </goals>
         </action>
+        <action>
+            <actionName>CUSTOM-site</actionName>
+            <displayName>site</displayName>
+            <goals>
+                <goal>site:site</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>site</activatedProfile>
+            </activatedProfiles>
+        </action>
     </actions>
